@@ -2,7 +2,7 @@
 
 Date:
 
-**AIM: **
+**AIM:**
  To simulate and synthesis ENCODER, DECODER, MULTIPLEXER, DEMULTIPLEXER, MAGNITUDE COMPARATOR using Xilinx ISE.
 
 **APPARATUS REQUIRED:**
