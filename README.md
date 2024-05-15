@@ -1,6 +1,8 @@
-# EXP-2 SIMULATION AND IMPLEMENTATION OF  COMBINATIONAL LOGIC CIRCUITS
+# VLSI-LAB-EXP-2
 
-Date:
+# SIMULATION AND IMPLEMENTATION OF  COMBINATIONAL LOGIC CIRCUITS
+
+**Date:**
 
 **AIM:**
  To simulate and synthesis ENCODER, DECODER, MULTIPLEXER, DEMULTIPLEXER, MAGNITUDE COMPARATOR using Xilinx ISE.
@@ -33,13 +35,13 @@ STEP:10 Double click on the Implement Design and double click on the Generate Pr
 
 STEP:11  On the board, by giving required input, the LEDs starts to glow light, indicating the output.
 
-ENCODER
+**ENCODER**
 
-LOGIC DIAGRAM:
+**LOGIC DIAGRAM:**
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-2/assets/6987778/3cd1f95e-7531-4cad-9154-fdd397ac439e)
 
-Verilog Code:
+**Verilog Code:**
 
 ```
 module encoder(d,y);
@@ -51,17 +53,17 @@ or g3(y[2],d[7],d[5],d[3],d[1]);
 endmodule
 ```
 
-Output:
+**Output:**
 
 ![image](https://github.com/Bharathsampat/VLSI-LAB-EXP-2/assets/147235565/4337ed99-7ff1-423c-91fc-537354ee0c05)
 
-DECODER
+**DECODER**
 
-LOGIC DIAGRAM:
+**LOGIC DIAGRAM:**
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-2/assets/6987778/45a5e6cf-bbe0-4fd5-ac84-e5ad4477483b)
 
-Verilog Code:
+**Verilog Code:**
 
 ```
 module decoder(a,b,c,y);
@@ -82,17 +84,17 @@ and g11(y[7],a,b,c);
 endmodule
 ```
 
-Output:
+**Output:**
 
 ![image](https://github.com/Bharathsampat/VLSI-LAB-EXP-2/assets/147235565/90fd7499-8b79-42cd-b869-6699f1aabc41)
 
-MULTIPLEXER
+**MULTIPLEXER**
 
-LOGIC DIAGRAM:
+**LOGIC DIAGRAM:**
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-2/assets/6987778/427f75b2-8e67-44b9-ac45-a66651787436)
 
-Verilog Code:
+**Verilog Code:**
 
 ```
 module multiplexer(s0,s1,s2,d,y);
@@ -115,17 +117,17 @@ or g12(y,w3,w4,w5,w6,w7,w8,w9,w10);
 endmodule
 ```
 
-Output:
+**Output:**
 
 ![image](https://github.com/Bharathsampat/VLSI-LAB-EXP-2/assets/147235565/c712aebb-6588-498f-8d11-2586a5894fa5)
 
-DEMULTIPLEXER
+**DEMULTIPLEXER**
 
-LOGIC DIAGRAM:
+**LOGIC DIAGRAM:**
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-2/assets/6987778/1c45a7fc-08ac-4f76-87f2-c084e7150557)
 
-Verilog Code:
+**Verilog Code:**
 
 ```
 module demux(s,d,y);
@@ -147,17 +149,17 @@ and g11(y[7],d,s[2],s[1],s[0]);
 endmodule
 ```
 
-Output:
+**Output:**
 
 ![image](https://github.com/Bharathsampat/VLSI-LAB-EXP-2/assets/147235565/fd58d84f-1cc4-4229-87ba-9e6038b4aa3e)
 
-MAGNITUDE COMPARATOR
+**MAGNITUDE COMPARATOR**
 
-LOGIC DIAGRAM:
+**LOGIC DIAGRAM:**
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-2/assets/6987778/b2fe7a05-6bf7-4dcb-8f5d-28abbf7ea8c2)
 
-Verilog Code:
+**Verilog Code:**
 
 ```
 module magnitude(a,b,great,less,equal);
@@ -186,7 +188,7 @@ end
 end 
 endmodule
 ```
-Output:
+**Output:**
 
 ![image](https://github.com/Bharathsampat/VLSI-LAB-EXP-2/assets/147235565/cb5e6285-c55f-4d22-9dcd-94931f76ce9a)
 
